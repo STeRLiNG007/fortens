@@ -1,0 +1,249 @@
+.header {
+    height: 120px;
+    /*margin-bottom: 20%;*/
+}
+
+.logo img {
+  margin-left: -8%;
+  margin-top: -6%;
+}
+
+.logo {
+  margin-top: -2%;
+}
+
+
+.topnav {
+   background-color: #333;
+   overflow: hidden;
+   height: 59px;
+}
+
+.topnav a {
+   float: left;
+   display: block;
+   color: white;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+   font-size: 17px;
+}
+
+.topnav a:hover {
+   background-color: #696969;
+   color: red;
+}
+
+.active {
+   background-color: #000000;
+   color: white;
+}
+
+.topnav .icon {
+   display: none;
+}
+
+.menu-wrapper {
+  margin-top: 2.5%;
+}
+.footer {
+  background-color: #333;
+  height: 59px;
+  margin-top: 14%;
+}
+
+.footer p {
+  color: white;
+  margin-top: 1.5%;
+}
+
+.contacts-container {
+  width: 452px;
+  height: 410px;
+  margin-top: 4%;
+  float: right;
+  font-family: "Ubuntu Condensed";
+}
+.contacts-container p{
+  height: 60px;
+  width: 452px;
+  font-size: 17pt;
+  margin-top: -57%;
+  margin-left: 5%;
+}
+
+.contacts-container span{
+  margin-left: 40.11%;
+}
+
+form {
+    margin-left: -23%;
+    margin-top: 32%;
+    max-width: 95%;
+    padding: 30px 30px 6px 30px;
+    border: 1px solid #333;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    background: #333; 
+    -moz-box-shadow: 0 0 13px 3px #333;
+    -webkit-box-shadow: 0 0 13px 3px #333;
+    box-shadow: 0 0 13px 3px #333;
+    overflow: hidden; 
+}
+
+textarea{
+    background: #333; 
+    width: 100%;
+    height: 68px;
+    border: 1px solid white;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box; 
+    display:block;
+    font-family: 'Open Sans', sans-serif;
+    font-size:18px;
+    font-weight: 300;
+    color: white;
+    padding-left:25px;
+    padding-right:20px;
+    padding-top:12px;
+    margin-bottom:20px;
+    overflow:hidden;
+}
+
+
+input {
+    width: 100%;
+    height: 35px;
+    border: 1px solid white;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box; 
+    display:block;
+    font-family: 'Open Sans', sans-serif;
+    font-size:18px;
+    font-weight: 300;    
+    color: white;
+    padding-left:20px;
+    padding-right:20px;
+    margin-bottom:20px;
+    background: #333;
+    padding-left:25px;
+}
+input[type=submit] {
+    cursor:pointer;
+}
+
+::-webkit-input-placeholder {
+    color: white;
+}
+:-moz-placeholder{ 
+    color: white; 
+}
+::-moz-placeholder {
+    color: white;
+}
+:-ms-input-placeholder {  
+    color: white; 
+}
+input:focus, textarea:focus { 
+    background-color: #333;
+    -moz-box-shadow: 0 0 5px 1px white;
+    -webkit-box-shadow: 0 0 5px 1px white;
+    box-shadow: 0 0 5px 1px white;
+    overflow: hidden; 
+}
+
+.btn {
+    text-align: center;
+    width: 138px;
+    height: 40px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    float:right;
+    border: 1px solid white;
+    background: #333;
+    background: -webkit-gradient(linear, left top, left bottom, from #333, to white);
+    background: -webkit-linear-gradient(top, #6da5a3, #416b68);
+    background: -moz-linear-gradient(top, #333, #333);
+    background: -ms-linear-gradient(top, #6da5a3, #416b68);
+    background: -o-linear-gradient(top, #6da5a3, #416b68);
+    background-image: -ms-linear-gradient(top, #6da5a3 0%, #416b68 100%);
+    padding: 10.5px 21px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    -webkit-box-shadow: rgba(255,255,255,0.1) 0 1px 0, inset rgba(255,255,255,0.7) 0 1px 0;
+    -moz-box-shadow: rgba(255,255,255,0.1) 0 1px 0, inset rgba(255,255,255,0.7) 0 1px 0;
+    box-shadow: rgba(255,255,255,0.1) 0 1px 0, inset rgba(255,255,255,0.7) 0 1px 0;
+    text-shadow: white 0 1px 0;
+    color: white;
+}
+.btn:hover {
+    border: 1px solid white;
+    text-shadow: white 0 1px 0;
+    background: #416b68;
+    background: -webkit-gradient(linear, left top, left bottom, from(#77b2b0), to(#416b68));
+    background: -webkit-linear-gradient(top, #77b2b0, #416b68);
+    background: -moz-linear-gradient(top, #333, #333);
+    background: -ms-linear-gradient(top, #77b2b0, #416b68);
+    background: -o-linear-gradient(top, #77b2b0, #416b68);
+    background-image: -ms-linear-gradient(top, #77b2b0 0%, #416b68 100%);
+    color: #fff;
+ }
+.btn:active {
+    margin-top:1px;
+    text-shadow: white 0 -1px 0;
+    border: 1px solid white;
+    background: white;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ffCC00), to(#ff6600));
+    background: -webkit-linear-gradient(top, #ffcc00, #ff6600);
+    background: -moz-linear-gradient(top, #333, #333);
+    background: -ms-linear-gradient(top, #333, #333);
+    background: -o-linear-gradient(top, #333, #333);
+    background-image: -ms-linear-gradient(top, #333 0%, #333 100%);
+    color: #fff;
+    -webkit-box-shadow: white 0 1px 0, inset #333 0 1px 0;
+    -moz-box-shadow: white 0 1px 0, inset #333 0 1px 0;
+    box-shadow: white 0 1px 0, inset #333 0 1px 0;
+    outline: none;
+}
+
+.body{
+ padding-bottom: 10px;
+}
+
+.cont-text h1{
+  position: absolute;
+  margin-top: 4%;
+  margin-left: 16%;
+}
+
+input::-moz-placeholder {
+ 
+ color: white !important;
+ opacity: 1;
+
+}
+
+textarea::-moz-placeholder {
+ 
+ color: white !important;
+ opacity: 1;
+
+}
+
+.cont-text h1{
+    margin-left: 28%;
+}

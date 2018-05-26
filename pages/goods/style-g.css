@@ -1,0 +1,138 @@
+.header {
+    height: 120px;
+    /*margin-bottom: 20%;*/
+}
+.logo img {
+  margin-left: -8%;
+  margin-top: -6%;
+}
+
+.logo {
+  margin-top: -2%;
+}
+
+
+.topnav {
+   background-color: #333;
+   overflow: hidden;
+   height: 59px;
+}
+
+.topnav a {
+   float: left;
+   display: block;
+   color: white;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+   font-size: 17px;
+}
+
+.topnav a:hover {
+   background-color: #696969;
+   color: red;
+}
+
+.active {
+   background-color: #000000;
+   color: white;
+}
+
+.topnav .icon {
+   display: none;
+}
+
+.menu-wrapper {
+  margin-top: 2.5%;
+}
+.footer {
+  background-color: #333;
+  height: 59px;
+  margin-top: 8%;
+}
+
+.footer p {
+  color: white;
+  margin-top: 1.5%;
+}
+
+.supreme{
+
+  margin-top: 0%;
+  margin-left: 4%;
+}
+
+.supreme img:hover, img:focus {
+  border: 1px black;
+}
+
+.nike-sb {
+  margin-left: 40.4%;
+  margin-top: 0%;
+}
+.nike-sb img:hover, img:focus {
+  border: 1px black;
+}
+
+.raf-simons{
+  margin-top: 0.7%;
+  margin-left: 61%;
+}
+
+.raf-simons img:hover, img:focus {
+  border: 1px black;
+}
+.yeezy{
+    margin-top: 35%; 
+    margin-left: -74%;
+}
+
+.yeezy img:hover, img:focus {
+  border: 1px black;
+}
+.air-force{
+  margin-top: 36%;
+  margin-left: -73.99%;
+}
+
+/*.air-force img:hover {
+  border: 1px black;
+}*/
+.nike-95{
+  margin-top: 36%;
+  margin-left: -16.53%;
+}
+
+.nike-95 img:hover, img:focus {
+  border: 1px black;
+}
+
+.air-force2:hover {
+  border: 2px black;
+  box-shadow: 0 0 13px 3px black;
+}
+
+.nike-sb2:hover {
+  border: 2px black;
+  box-shadow: 0 0 13px 3px black;
+}
+
+.raf-simons2:hover {
+  border: 2px black;
+  box-shadow: 0 0 13px 3px black;
+}
+
+.nike-95-2:hover {
+  border: 2px black;
+  box-shadow: 0 0 13px 3px black;
+}
+
+.yeezy2:hover {
+  border: 2px black;
+  box-shadow: 0 0 13px 3px black;
+}
+
+.supreme2:hover {
+  border: 2px black;
+  box-shadow: 0 0 13px 3px black;
+}
